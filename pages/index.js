@@ -29,12 +29,18 @@ export default function Home() {
           <div className={styles.grid}>
             <div className={styles.card}>
               <h2 className={styles.title}>Atrilyx</h2>
+              <img src="/images/atrilyx.png"/>
+              <p>Atrilyx is a trademark interactive single-page dashboard for our clients at Ai Media Group. With our Blackstone investment, the dashboard I contributed in building is able to display marketing measurement attributions based on visitors' actions, tracked by our homemade universal pixel. With the data we share on our dashboard, marketers are about to determine which campaigns and channels bring in the most customers and most revenue. As Frontend Developer of this project, I built the interactive dashboard in Laravel, JS, and Sass. Currently, Atrilyx is being used by huge clients such as Honda and Oscar De La Renta.</p>
             </div>
             <div className={styles.card}>
               <h2 className={styles.title}>Login Portal</h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LCXywmKACjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>This login portal is a internal dashboard built for our teams at Ai Media Group. As the first React developer at Ai Media Group, I built this dashboard portal to centralize our platforms in a single page. The features I built are the following: dragging and dropping widget cards, image uploads to Azure DB, ability to save states, adding and deleting widget cards, and searching and filtering by name. This project took a few months to build and is currently used company-wide. I built this login portal in React and NodeJS.</p>
             </div>
             <div className={styles.card}>
               <h2 className={styles.title}>Ecommerce Store</h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/NZ8XEAmZELM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>This Ecommerce store was built as a personal project for my good friend who was looking to make a site to sell his artwork. While I was studying at the Engineering program at Flatiron, I decided to make this my final project. The store is able to display items for sell, show a item description page, provides a cart page, and even it has a order history page. During this project, I learned how to integrate and use the Stripe API in a matter of weeks. As security, I added JWT and hashing to authenticate logins. I built this ecommerce store in React and NodeJS.</p>
             </div>
           </div>
         </div>
